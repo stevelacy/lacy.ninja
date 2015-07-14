@@ -31,4 +31,18 @@ body {
   color: #171717;
   text-align: center;
   transform: translateY(-50%);
+  transition: all 1s;
+  cursor: crosshair;
+}
+
+.ninja:hover {
+  color: #37FDFC;
+}
+
+::selection {
+  background: #37FDFC;
+}
+
+::-moz-selection {
+  background: #37FDFC;
 }
